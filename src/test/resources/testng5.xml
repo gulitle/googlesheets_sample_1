@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="GooglePixel3_safari_cart_search">
+<suite name="suite_example">
 	<parameter name="environment" value="uat" />
     <parameter name="urlHub" value="" />
 	<parameter name="Browser" value="chrome" />
@@ -8,7 +8,7 @@
 	<parameter name="Headless" value="false" />
 	<parameter name="spreadsheet_id" value="1uRhsEFvB5uUyCDcKG0hlTHqlM756z337KUiABQuvoso" />
 	<parameter name="spreadsheet_name" value="TC_Sample" />
-	<test name="ios_regresstion">
+	<test name="tiki_test">
 		<classes>
 			<class name="tiki.vn.qc.testCreator.Engine" />
 		</classes>
